@@ -699,3 +699,8 @@ Github: [springboot-jwt-demo](https://github.com/echisan/springboot-jwt-demo)
 
 ## 结语
 至于为什么没有redis，没有token管理，因为在我写这篇文章的时候想了很多，感觉我现在的解决方案也不是特别好，如果想知道的话可以到GitHub上找我，一起讨论下。
+
+
+-- 创建数据库表 jd_user
+-- CREATE TABLE `testdb`.`jd_user` ( `id` INT NOT NULL AUTO_INCREMENT, `username` VARCHAR(20), `password` VARCHAR(20), `role` VARCHAR(20), PRIMARY KEY (`id`) ); 
+
